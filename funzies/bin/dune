@@ -1,0 +1,10 @@
+(executable
+ (public_name funzies)
+ (name main)
+ (libraries funzies))
+
+(env
+ (_
+  (flags
+   (:standard -w -37)
+   (:standard -w -32))))
